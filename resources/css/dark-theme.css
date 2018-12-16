@@ -1,0 +1,22 @@
+body {
+    background-color: #333;
+    color: #eee;
+}
+
+.card-header, .card-body {
+    background-color: #0000002f;
+    border: 1px solid #0000004f;
+    color: #000;
+}
+
+.image-category-block, .image-category-block-right {
+    background-color: #bbb;
+    border: 0.3em solid #44444466;
+    border-right: 0.15em solid #44444466;
+}
+.image-category-block-right {
+    border: 0.3em solid #44444466;
+}
+.image-category-block h4, .image-category-block-right h4 {
+    color: #000;
+}

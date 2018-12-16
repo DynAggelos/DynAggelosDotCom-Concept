@@ -1,0 +1,46 @@
+.bg-dark {
+    background-color: #c7eef0 !important;
+}
+.text-light {
+    color: #000 !important;
+}
+
+header > div.bg-dark.text-light,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler {
+    background-color: #c7eef0 !important;
+    color: #000 !important;
+}
+
+.navbar-dark .navbar-toggler .navbar-toggler-icon {
+    background-color: #00000077;
+    border-radius: 0.25rem;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #000 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #00000077 !important;
+}
+
+header #login-form, header #settings-form {
+    background-color: #91ccd2f8;
+    border: 1px solid #91ccd2f8;
+    color: #000;
+}
+
+.image-category-block, .image-category-block-right {
+    background-color: #ddd;
+    border: 0.3em solid #44444466;
+    border-right: 0.15em solid #44444466;
+}
+.image-category-block-right {
+    border: 0.3em solid #44444466;
+}
+.image-category-block h4, .image-category-block-right h4 {
+    color: #000;
+}

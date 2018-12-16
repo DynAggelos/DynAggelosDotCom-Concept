@@ -1,0 +1,102 @@
+.hidden {
+    position: absolute;
+    visibility: hidden;
+}
+.visible {
+    position: absolute;
+    visibility: visible;
+}
+.smaller {
+    font-size: 0.75em;
+}
+.much-smaller {
+    font-size: 0.5em;
+}
+
+main {
+    min-height: 75vh;
+}
+
+header .flexbox-fluid {
+    background-color: #00000016;
+    border-left: 1px solid #00000017;
+    border-right: 1px solid #00000017;
+    border-top: 1px solid #00000022;
+    border-radius: 0.5em 0.5em 0px 0px;
+}
+
+header #website-navbar {
+    max-width: 100%;
+}
+
+header .navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+header #login-window {
+    position: relative;
+}
+#login-mask, #settings-mask {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+header #login-form, header #settings-form {
+    position: absolute;
+    top: 0.25rem;
+    display: block;
+    width: 15rem;
+    padding: 1.25rem;
+    background-color: #3a4344f8;
+    border: 1px solid #444444f8;
+    border-radius: 0.5rem;
+    color: #eee;
+    z-index: 100;
+}
+header #settings-form {
+    z-index: 99;
+}
+
+.forum-post {
+    margin: 1em;
+    padding: 1em;
+    background-color: #0000000a;
+    border: 1px solid #aaaaaaaa;
+}
+.forum-post-link {
+    margin: 1em;
+    padding: 1em;
+    background-color: #0000000a;
+    border: 1px solid #aaaaaaaa;
+}
+.forum-post-link > span {
+    font-size: 1.5em;
+}
+input.forum-input, textarea.forum-input {
+    width: 75%;
+    margin: 1em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 0.75px solid #aaaaaaaa;
+}
+textarea.forum-input {
+    height: 8em;
+}
+
+.image-category-block, .image-category-block-right {
+    background-color: #444;
+    border: 0.3em solid #00000066;
+    border-right: 0.15em inset #00000066;
+}
+.image-category-block-right {
+    border: 0.3em solid #00000066;
+}
+.image-category-block h4 {
+    color: #eee;
+}
+
+img {
+    max-width: 100%;
+}

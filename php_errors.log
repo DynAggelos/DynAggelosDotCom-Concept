@@ -1,0 +1,55 @@
+[08-Nov-2018 23:13:26 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/setup/index.php on line 12
+[08-Nov-2018 23:13:26 UTC] PHP Stack trace:
+[08-Nov-2018 23:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/setup/index.php:0
+[08-Nov-2018 23:30:56 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/ubuntu/workspace/common_functions.php on line 7
+[08-Nov-2018 23:30:56 UTC] PHP Stack trace:
+[08-Nov-2018 23:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/setup/index.php:0
+[17-Nov-2018 02:00:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/common_functions.php on line 123
+[17-Nov-2018 02:00:09 UTC] PHP Stack trace:
+[17-Nov-2018 02:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/setup/index.php:0
+[17-Nov-2018 07:44:23 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/form/login.php on line 11
+[22-Nov-2018 05:11:55 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/form/login.php on line 72
+[22-Nov-2018 07:08:58 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/form/login.php on line 72
+[22-Nov-2018 07:10:01 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/form/login.php on line 72
+[22-Nov-2018 07:10:19 UTC] PHP Fatal error:  Call to undefined function is_valid_username() in /home/ubuntu/workspace/form/login.php on line 33
+[22-Nov-2018 07:10:19 UTC] PHP Stack trace:
+[22-Nov-2018 07:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[22-Nov-2018 07:26:09 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/ubuntu/workspace/form/login.php on line 84
+[22-Nov-2018 10:01:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/utility_functions/common_functions.php on line 206
+[22-Nov-2018 10:01:25 UTC] PHP Stack trace:
+[22-Nov-2018 10:01:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[22-Nov-2018 10:01:25 UTC] PHP   2. sqlize_user_input() /home/ubuntu/workspace/form/login.php:53
+[22-Nov-2018 10:01:25 UTC] PHP   3. sql_encode() /home/ubuntu/workspace/utility_functions/common_functions.php:77
+[22-Nov-2018 10:01:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/utility_functions/common_functions.php on line 206
+[22-Nov-2018 10:01:53 UTC] PHP Stack trace:
+[22-Nov-2018 10:01:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[22-Nov-2018 10:01:53 UTC] PHP   2. sqlize_user_input() /home/ubuntu/workspace/form/login.php:53
+[22-Nov-2018 10:01:53 UTC] PHP   3. sql_encode() /home/ubuntu/workspace/utility_functions/common_functions.php:77
+[22-Nov-2018 22:58:47 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/utility_functions/common_functions.php on line 6
+[22-Nov-2018 22:58:47 UTC] PHP Stack trace:
+[22-Nov-2018 22:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[22-Nov-2018 22:58:47 UTC] PHP   2. sqlize_user_input() /home/ubuntu/workspace/form/login.php:53
+[22-Nov-2018 22:58:47 UTC] PHP   3. sql_encode() /home/ubuntu/workspace/utility_functions/common_functions.php:77
+[22-Nov-2018 22:58:47 UTC] PHP   4. java_script_alert() /home/ubuntu/workspace/utility_functions/common_functions.php:242
+[22-Nov-2018 22:58:47 UTC] PHP   5. explode() /home/ubuntu/workspace/utility_functions/common_functions.php:6
+[22-Nov-2018 22:58:47 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/utility_functions/common_functions.php on line 13
+[22-Nov-2018 22:58:47 UTC] PHP Stack trace:
+[22-Nov-2018 22:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[22-Nov-2018 22:58:47 UTC] PHP   2. sqlize_user_input() /home/ubuntu/workspace/form/login.php:53
+[22-Nov-2018 22:58:47 UTC] PHP   3. sql_encode() /home/ubuntu/workspace/utility_functions/common_functions.php:77
+[22-Nov-2018 22:58:47 UTC] PHP   4. java_script_alert() /home/ubuntu/workspace/utility_functions/common_functions.php:242
+[22-Nov-2018 22:58:47 UTC] PHP   5. implode() /home/ubuntu/workspace/utility_functions/common_functions.php:13
+[22-Nov-2018 23:15:44 UTC] PHP Fatal error:  Call to undefined function sqlize_user_input() in /home/ubuntu/workspace/form/login.php on line 53
+[22-Nov-2018 23:15:44 UTC] PHP Stack trace:
+[22-Nov-2018 23:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[24-Nov-2018 08:38:26 UTC] PHP Warning:  require(../utility_functions/common_functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/form/login.php on line 11
+[24-Nov-2018 08:38:26 UTC] PHP Stack trace:
+[24-Nov-2018 08:38:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[24-Nov-2018 08:38:26 UTC] PHP Fatal error:  require(): Failed opening required '../utility_functions/common_functions.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/form/login.php on line 11
+[24-Nov-2018 08:38:26 UTC] PHP Stack trace:
+[24-Nov-2018 08:38:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[24-Nov-2018 08:57:58 UTC] PHP Fatal error:  Call to undefined function intdiv() in /home/ubuntu/workspace/utilities/common_classes.php on line 218
+[24-Nov-2018 08:57:58 UTC] PHP Stack trace:
+[24-Nov-2018 08:57:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/form/login.php:0
+[24-Nov-2018 08:57:58 UTC] PHP   2. sql_encode_decode() /home/ubuntu/workspace/form/login.php:88
+[24-Nov-2018 08:57:58 UTC] PHP   3. SQLEncodeDecode->encode() /home/ubuntu/workspace/utilities/common_functions.php:82

@@ -1,0 +1,36 @@
+body {
+    background-color: #e2dfd2;
+    color: #000;
+}
+
+.bg-dark {
+    background-color: #414141 !important;
+}
+
+header > div.bg-dark.text-light,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler {
+    background-color: #414141 !important;
+}
+
+header #login-form, header #settings-form {
+    background-color: #323232f8;
+}
+
+.card-header, .card-body {
+    background-color: #b4b3ad77;
+    border: 1px solid #73727177;
+    color: #000;
+}
+
+.image-category-block, .image-category-block-right {
+    background-color: #cccbc5;
+    border: 0.3em solid #44444466;
+    border-right: 0.15em solid #44444466;
+}
+.image-category-block-right {
+    border: 0.3em solid #44444466;
+}
+.image-category-block h4, .image-category-block-right h4 {
+    color: #000;
+}
